@@ -1,0 +1,18 @@
+.Abt{
+    margin: 4rem 6rem;
+    text-align: start;
+}
+
+.Abt h1{
+    padding-bottom: 1rem;
+}
+
+.Abt p{
+    padding-bottom: 2rem ;
+}
+
+@media screen and (max-width : 850px){
+    .Abt{
+        margin: 4rem 2rem;
+    }
+}

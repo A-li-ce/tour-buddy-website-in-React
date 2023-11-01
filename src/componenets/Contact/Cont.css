@@ -1,0 +1,47 @@
+.Cont{
+    margin: 4rem 6rem;
+    color: #2a2a2a;
+}
+
+.Cont form{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+} 
+
+.Cont input , textarea{
+    height: 3rem;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    border-radius: .3rem;
+    border: 1px solid #2a2a2a;
+}
+
+button{
+    background-color: #2a2a2a;
+    color: aliceblue;
+    width: 100%;
+    height: auto;
+}
+
+button:hover{
+    border: 2px solid #2a2a2a;
+    background: none;
+    color: #2a2a2a;
+}
+
+@media screen and (max-width : 850px){
+    .Cont{
+        margin: 4rem 2rem;
+    }
+
+    .Cont form{
+        padding-top: 2rem;
+        width: 90%;
+    }
+    button{
+        display: block;
+    }
+}
