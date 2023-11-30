@@ -23,7 +23,8 @@ button{
     background-color: #2a2a2a;
     color: aliceblue;
     width: 100%;
-    height: auto;
+    height: 55px;
+
 }
 
 button:hover{

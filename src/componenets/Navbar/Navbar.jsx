@@ -34,7 +34,7 @@ export class Navbar extends Component {
               )
             })
           }
-          <button>Sign Up</button>
+          <button className='btn'>Sign Up</button>
         </ul>
 
       </nav>
