@@ -1,6 +1,7 @@
 # render.yaml
 services:
-  - name: your-app-name
+  - name: tourbuddy
     type: web
     buildCommand: npm run build
     startCommand: npm run dev
+    httpPort: 5173
