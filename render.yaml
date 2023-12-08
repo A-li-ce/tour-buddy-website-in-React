@@ -3,5 +3,5 @@ services:
   - name: tourbuddy
     type: web
     buildCommand: npm run build
-    startCommand: npm run dev
+    startCommand: npm run start
     httpPort: 5173
